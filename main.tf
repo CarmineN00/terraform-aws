@@ -33,7 +33,7 @@ module "vpc" {
   cidr = "10.0.0.0/16"
 
   azs             = ["eu-south-1a", "eu-south-1b", "eu-south-1c"]
-  private_subnets = ["10.0.1.0/24", "10.0.2.0/24"]
+  private_subnets = ["10.0.10.0/24", "10.0.20.0/24"]
   public_subnets  = ["10.0.101.0/24"]
 
   enable_dns_hostnames    = true
